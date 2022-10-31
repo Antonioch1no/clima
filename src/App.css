@@ -1,0 +1,48 @@
+
+body {
+  margin: 0;
+   background-image: url("./assets/images/pexels-sergio-souza-3772244.jpg");
+  background-size: cover;
+  
+  box-sizing: border-box;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.App {
+  margin: 0 auto;
+   height: 100vh;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.card {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  padding: 30px;
+  border-radius: 10px;
+   margin: 0 auto;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.32);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.8px);
+-webkit-backdrop-filter: blur(5.8px);
+border: 1px solid rgba(255, 255, 255, 0.55);
+ 
+
+  
+
+}
+
+.btn {
+  border-radius: 33px;
+background: #e0e0e0;
+box-shadow:  15px 15px 15px #c7c7c7,
+             -15px -15px 15px #f9f9f9;
+}
